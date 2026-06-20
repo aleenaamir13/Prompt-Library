@@ -1,7 +1,7 @@
 import React from 'react'
 import HeroSection from "@/components/HeroSection";
 import {sampleBooks} from "@/lib/constants";
-import BookCard from "@/components/ui/BookCard";
+import BookCard from "@/components/BookCard";
 
 const Page=() => {
     return (
