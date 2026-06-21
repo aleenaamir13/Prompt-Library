@@ -6,10 +6,13 @@ import {usePathname} from "next/navigation";
 import {cn} from "@/lib/utils";
 import { Show, SignInButton, SignUpButton, UserButton,useUser } from '@clerk/nextjs';
 
-const navItems=[
-    {label:"Library",href:"/"},
-    {label:"Add New",href:"/books/new"},
+
+const navItems = [
+    { label: "Library", href: "/" },
+    { label: "Add New", href: "/books/new" },
+    { label: "Pricing", href: "/subscriptions" },
 ]
+
 const Navbar = () => {
     const PathName=usePathname();
     const {user}=useUser();

@@ -25,9 +25,7 @@ export const metadata: Metadata = {
     description: "Transform your books into interactive AI components. Upload PDFs and chat with your books using voice.",
 };
 
-export default function RootLayout({
-                                       children,
-                                   }: Readonly<{
+export default function RootLayout({children,}: Readonly<{
     children: React.ReactNode;
 }>) {
     return (
